@@ -17,7 +17,7 @@ export default function UserDeposit() {
           <div className='swapfrom--container'>
             <div className='swapfrom--text'>1st Token</div>
             <div className='swapfrom--box'>
-              <div className='box--text'>0</div>
+              <input type='text'/>
               <div className='box--button'>
                 <div className='button'>Choose Token</div>
             </div>
@@ -28,7 +28,7 @@ export default function UserDeposit() {
             <div className='swapfrom--text text2'>2nd Token</div>
             </div>
             <div className='swapfrom--box'>
-              <div className='box--text'>0</div>
+            <input type='text'/>
               <div className='box--button'>
                 <div className='button'>Choose Token</div>
             </div>

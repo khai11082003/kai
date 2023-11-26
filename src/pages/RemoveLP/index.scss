@@ -1,5 +1,17 @@
 .RemoveLP{
+    position: relative;
+    height: 700px;
     .swapfrom--box{
+        input{
+            background-color: #ecbe4000;
+            border: none;
+            color: aliceblue;
+            font-size: 20px;
+            width: 200px;
+            &:focus{
+                outline: none;
+            }
+        }
         padding-top: 15px !important;
         padding-bottom: 15px !important;
         display: flex;

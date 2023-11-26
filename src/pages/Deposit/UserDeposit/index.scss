@@ -1,4 +1,9 @@
 .UserDeposit{
+    height: 700px;
+    position: relative;
+    .position--button{
+        margin-bottom: 70px;
+    }
     .des{
         text-align: center;
         font-size: 11px;
@@ -24,6 +29,11 @@
             background-color: #eab63ebc;
             padding: 5px 8px;
             border-radius: 5px;
+            border: 1px solid #EAB63E;
+            cursor: pointer;
+            &:hover{
+                background-color: #eab63e00;
+            }
             }
             .swapfrom--container , .swapto--container{
                 margin-top: 30px;
@@ -48,8 +58,16 @@
                     border-radius: 6px;
                     align-items: center;
                     padding: 15px 10px;
-                    .box--text{
-                        font-size: 20px;
+                    
+                    input{
+                        font-size: 25px;
+                        width: 150px;
+                        background-color: #0c96f800;
+                        border: none;
+                        color: #fff;
+                        &:focus{
+                            outline: none;
+                        }
                     }
                     .box--button{
                         display: flex;

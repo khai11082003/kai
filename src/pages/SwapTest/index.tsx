@@ -8,7 +8,7 @@ import IconSVG from '../../components/Icons/IconSVG'
 
 export default function SwapTest() {
   return (
-    <div>
+    <div className='container--SwapTest'>
         <HeaderMain/>
         <AccountName/>
         <TitleMain/>

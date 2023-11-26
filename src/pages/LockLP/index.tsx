@@ -13,11 +13,12 @@ export default function LockLp() {
             <div className='h1'>LP Token</div>
             <div className='Lock--box--1'>
                 <div className='buttonLP'>Choose LP</div>
+                <input id='input1'/>
             </div>
             <div className='h1'>Amount Locking</div>
-            <div className='Lock--box'>0</div>
+            <input/>
             <div className='h1'>Time Locking</div>
-            <div className='Lock--box'>0</div>
+            <input/>
         </div>
         <Footer/>
     </div>

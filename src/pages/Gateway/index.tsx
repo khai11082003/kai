@@ -15,7 +15,7 @@ export default function Gateway() {
       <div className="SwapMain--title">
         11.25 <span>LINK</span>
       </div>
-    <div className='container'>
+    <div className='container2'>
     <div className='address'>External Address</div>
       <div className='input'>
         <div className='icon--content'>

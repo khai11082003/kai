@@ -7,7 +7,7 @@ import "./index.scss";
 import IconSVG from "../../components/Icons/IconSVG";
 export default function IndexDeposit() {
   return (
-    <div>
+    <div className="container--ChooseToken">
       <HeaderMain />
       <AccountName />
       <div className='title'>Deposit LP</div>

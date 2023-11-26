@@ -8,7 +8,8 @@ import IconSVG from "../../components/Icons/IconSVG";
 import { Form } from "react-router-dom";
 export default function ChooseToken() {
   return (
-    <div>
+    <>
+    <div className="container--ChooseToken">
       <HeaderMain />
       <AccountName />
       <TitleMain />
@@ -131,5 +132,6 @@ export default function ChooseToken() {
       </div>
       <Footer />
     </div>
+    </>
   );
 }

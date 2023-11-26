@@ -8,9 +8,10 @@ export default function WindrawPayment() {
     <div className='WindrawPayment'>
         <HeaderMain/>
         <div className='title'>Windraw</div>
-        <div className='container'>
+        <div className='container1'>
         <div className='sstitle'>Send To Address</div>
-        <div className='Payment--box'>0xb98Ef0896C9f1A175B97078f40097ea9fdf18588</div>
+            <input className='Payment--box'/>
+
         <div className='status'>Correct EVM address</div>
         <div className='title--form'>
         Transaction Information
@@ -37,7 +38,7 @@ export default function WindrawPayment() {
                         <div>100.11 ETH</div>
                     </div>
                 </div>
-                <div className='box--submit'>100.0 ETH</div>
+                <input className='box--submit'/>
                 <div className='result'>
                     <div className='Fast'>Fast<br/><span>Likely {"<"} 15 seconds</span></div>
                     <div className='Max--fee'>Max fee</div>

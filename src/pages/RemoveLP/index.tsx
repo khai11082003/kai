@@ -6,7 +6,7 @@ import AccountName from '../../components/Headers/AccountName'
 import IconSVG from '../../components/Icons/IconSVG'
 export default function RemoveLP() {
   return (
-    <div className='RemoveLP'>
+    <div className='RemoveLP container--SwapTest'>
         <HeaderMain/>
         <AccountName/>
         <div className='title'>Withdraw LP</div>
@@ -17,7 +17,7 @@ export default function RemoveLP() {
           Amount of LP Token
 </div>
             <div className='swapfrom--box'>
-              <div className='box--text'>10</div>
+              <input style={{direction: 'rtl'}}/>
               <div className='box--button'>
                 <span className='button--1'>Max</span>
             </div>
@@ -28,9 +28,11 @@ export default function RemoveLP() {
             <div className='swapfrom--text text2'>Address To</div>
             </div>
             <div className='swapfrom--box'>
+              
               <div className='box--button'>
                 <IconSVG iconName='0'/>
             </div>
+            <input/>
           </div>
         </div>
         <div className='desc--container'>

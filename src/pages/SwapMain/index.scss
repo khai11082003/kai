@@ -1,4 +1,6 @@
 .SwapMain{
+    height: 700px;
+    position: relative;
     .position--button,.back--to--home--text{
         display: none;
     }
@@ -32,7 +34,7 @@
     font-weight: 400;
     font-size: 11px;
     text-align: center;
-    bottom: 70px;
+    bottom: 47px;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #EEC140;
@@ -72,6 +74,13 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                border: 1px solid #DFB53C;
+                cursor: pointer;
+                &:hover{
+                    background-color: #0c96f800;
+                }
+          
+
             }
         }
     }
@@ -95,7 +104,9 @@
                 margin-left: 20px;
                 width: 42%;
                 svg{
-                    margin-right: 5px;
+                    margin-right: 10px;
+                    width: 28px;
+                    height: 28px;
                 }
             }
             .coinName{

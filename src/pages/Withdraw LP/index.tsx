@@ -6,11 +6,12 @@ import IconSVG from '../../components/Icons/IconSVG'
 import "./index.scss"
 export default function Withdraw() {
   return (
-    <div className='Withdraw'>
+    <div className='Withdraw container--ChooseToken'>
         <HeaderMain/>
         <AccountName/>
         <div className='title'>Withdraw LP</div>
-        <div className="mainnav">
+       <div className='container'>
+       <div className="mainnav">
       <form className="input1">
           <IconSVG iconName="iconfind" />
           <input placeholder="Search name or address" id="subinput" type="text"/>
@@ -119,6 +120,7 @@ export default function Withdraw() {
 
         </div>
       </div>
+       </div>
         <Footer/>
     </div>
   )

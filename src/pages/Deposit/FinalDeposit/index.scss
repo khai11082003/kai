@@ -1,4 +1,6 @@
-.FinalDeposit{
+.container{
+    position: relative;
+    height: 700px;
     .position--button{
         display: none;
     }
@@ -30,20 +32,26 @@
         font-size: 11px;
         color: #ecbf04;
         text-align: center;
-        margin-top: 140px;
+        margin-top: 110px;
     }
     .buttton{
         display: flex;
         justify-content: center;
         .button{
+            cursor: pointer;
             width: 132px;
             height: 36px;
             background-color: #EAB63E;
             display: flex;
+            border: 1px solid #EAB63E;
             justify-content: center;
             align-items: center;
             border-radius: 10px;
-            margin-top: 40px;
+            margin-top: 20px;
+            &:hover{
+                background-color: #eab63e00;
+
+            }
         }
     }
 }

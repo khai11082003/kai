@@ -7,7 +7,7 @@ import "./style.scss"
 import IconSVG from '../../components/Icons/IconSVG'
 export default function SwapInfor() {
   return (
-    <div className='infor'>
+    <div className='infor--container'>
 <HeaderMain />
       <AccountName />
       <TitleMain />

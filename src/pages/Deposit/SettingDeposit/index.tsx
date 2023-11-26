@@ -5,7 +5,7 @@ import HeaderMain from '../../../components/Headers/HeaderMain/HeaderMain'
 import IconSVG from '../../../components/Icons/IconSVG'
 export default function SettingDeposit() {
   return (
-    <div className='SettingDeposit'>
+    <div className='container'>
         <HeaderMain/>
         <div className='Titile--Deposit'>Setting</div>
         <div className="arrow--SwapMain">

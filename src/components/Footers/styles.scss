@@ -11,7 +11,7 @@
     cursor: pointer;
 }
 .position--button{
-
+    margin-bottom: 40px;
     .button--container{
         display: flex;
         justify-content: space-around;
@@ -45,10 +45,10 @@
     }
 }
 .footer--component{
-    .footer--position{
-        position: fixed;
-        bottom: 10px;
+    position: absolute;
+        bottom: 0px;
         width: 380px;
+    .footer--position{
         .line{
             border: 1px solid #EAB63E;
             width: 72px;

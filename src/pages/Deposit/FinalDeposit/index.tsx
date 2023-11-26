@@ -5,7 +5,7 @@ import "./index.scss"
 import AccountName from '../../../components/Headers/AccountName'
 export default function FinalDeposit() {
   return (
-    <div className='FinalDeposit'>
+    <div className='container'>
         <HeaderMain/>
         <AccountName/>
         <div className='title'>Deposit LP</div>

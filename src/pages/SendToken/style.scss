@@ -1,4 +1,6 @@
 .page{
+    position: relative;
+    height: 700px;
     .position--button{
         display: none;}
         .mainnav4{
@@ -53,7 +55,7 @@
             }
             .contentform--container{
                 font-size: 14px;
-                margin-bottom: 30px;
+                margin-bottom: 20px;
             }
             .contentform--container-2,.contentform--container-3{
                 width: 332px;
@@ -83,6 +85,7 @@
                 margin-bottom: 10px;
             }
             .position--button{
+                margin-bottom: 10px;
                 display: flex;
                 justify-content: center;
                 .buttonform--container{

@@ -1,4 +1,6 @@
 .WindrawPayment{
+    position: relative;
+    height: 700px;
     .position--button{
         display: none;
     }
@@ -9,7 +11,7 @@
     .title{
         font-size: 30px;
     }
-    .container{
+    .container1{
         margin-left: 10px;
         .sstitle{
             font-size: 20px;
@@ -20,12 +22,18 @@
             width: 352px;
             height: 42px;
             border: 2px solid #fff;
-            font-size: 13px;
+            font-size: 18px;
+            padding-left: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
             border-radius: 6px;
             margin-bottom: 13px;
+            background-color: #0c96f800;
+            color: #fff;
+            &:focus{
+                outline: none;
+            }
         }
         .status{
             color: #00FF38;
@@ -133,7 +141,7 @@
                     }
                 }
                 .box--submit{
-                    width: 175px;
+                    width: 180px;
                     height: 21px;
                     background-color: #D9D9D9;
                     color: #222222;
@@ -142,6 +150,11 @@
                     padding-right: 10px;
                     border-radius: 6px;
                     margin-bottom: 45px;
+                    font-weight: 100;
+                }
+                input{
+                    direction: rtl;
+                    border: none;
                 }
                 .box--submit{
                     display: flex;
