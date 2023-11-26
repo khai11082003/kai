@@ -1,0 +1,25 @@
+.Withdraw{
+    .line{
+        position: relative;
+        left: 81%;
+    }
+    .ul--conntainer{
+        .box{
+            margin-bottom: 10px;
+                font-size: 20px;
+            
+                .windraw{
+                    font-size: 16px !important;
+                }
+        }
+        .box-container{
+            padding-top: 10px;
+        }
+        .dot{
+            display: inline;
+            position: relative;
+            top: 3px;
+        }
+    }
+
+}

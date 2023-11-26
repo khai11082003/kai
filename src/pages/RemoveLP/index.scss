@@ -1,0 +1,29 @@
+.RemoveLP{
+    .swapfrom--box{
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .line{
+        position: relative;
+        left: 81%;
+    }
+    
+    .subtile{
+        margin-left: 10px;
+        font-size: 16px;
+        color: #ECBF40;
+        margin-top: 2px;
+    }
+    .box--button{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .mainnav2{
+        .desc--container{
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.content--container{
+    .account--name {
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            color: #C36027;
+            padding: 5px;
+        }
+    
+        .ant-typography {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 16px;
+            text-align: center;
+            color: var(--text-yellow-primary);
+            .anticon-copy{
+                color: var(--text-yellow-primary);
+                width: 10px;
+                height: 10px;
+            }
+            .ant-typography-copy-success{
+                color: var(--text-yellow-primary);
+                font-size: 12px;
+            }
+        }
+    }
+    margin-top: 20px;
+}
